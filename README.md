@@ -1,4 +1,4 @@
-Add Existing core to a new repo
+Add Existing code to a new repo
 ===== 
 
 
@@ -25,8 +25,7 @@ $ git remote -v
 `$ git push origin master`
 
 
-
-git pull to overwrite local files
+Overwrite local files and get everithing from server
 ==
 `git fetch --all`
 
