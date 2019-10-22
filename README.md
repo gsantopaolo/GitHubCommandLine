@@ -37,3 +37,30 @@ Then, you have two options:
 OR If you are on some other branch:
 
 `git reset --hard origin/<branch_name>`
+
+Untrack files already added to git repository based on .gitignore
+==
+
+Step 1: Commit all your changes
+-
+Before proceeding, make sure all your changes are committed, including your .gitignore file.
+
+Step 2: Remove everything from the repository
+-
+To clear your repo, use:
+`git rm -r --cached .`
+
+rm is the remove command
+-r will allow recursive removal
+–cached will only remove files from the index. Your files will still be there.
+The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt (thanks @amadeann).
+The rm command can be unforgiving. If you wish to try what it does beforehand, add the -n or --dry-run flag to test things out.
+
+Step 3: Re add everything
+-
+`git add .`
+Step 4: Commit
+-
+`git commit -m ".gitignore fix"`
+
+you now have a clean repo!
