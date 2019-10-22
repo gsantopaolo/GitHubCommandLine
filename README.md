@@ -3,6 +3,7 @@ Add Existing core to a new repo
 
 
 1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with _README_, license, or _gitignore
+1. remember to add the appropriate .gitignore file
 1. Open Git Bash
 1. Change the current working directory to your local project.
 1. Initialize the local directory as a Git repository.
