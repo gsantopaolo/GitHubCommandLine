@@ -64,3 +64,4 @@ Step 4: Commit
 `git commit -m ".gitignore fix"`
 
 you now have a clean repo!
+ 
