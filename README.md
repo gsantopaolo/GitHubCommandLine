@@ -63,6 +63,13 @@ Step 3: Re add everything
 Step 4: Commit
 -
 `git commit -m ".gitignore fix"`
+Step 5: Remove local untracked files from the current Git branch
+-
+`git clean -f
+git clean -fd
+git clean -fX`
+
+
 
 you now have a clean repo!
  
