@@ -57,8 +57,9 @@ The . indicates that all files will be untracked. You can untrack a specific fil
 The rm command can be unforgiving. If you wish to try what it does beforehand, add the -n or --dry-run flag to test things out.
 
 Step 3: Re add everything
--
+- 
 `git add .`
+
 Step 4: Commit
 -
 `git commit -m ".gitignore fix"`
