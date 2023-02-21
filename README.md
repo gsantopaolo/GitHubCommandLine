@@ -14,8 +14,8 @@ Add Existing code to a new repo
 `$ git commit -m "First commit"`
 1. At the top right of the GitHub repositoryclick on _Clone or Download_ and then click the 
 
-![image.png](/.attachments/image-23cd624e-4629-4188-b422-480b5d9b2661.png) to copy the remote repository URL.
-![image.png](/.attachments/image-a0df0f85-ac0c-42f8-b380-561cc6685f49.png)
+to copy the remote repository URL.
+
 1. In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
 ```
 $ git remote add origin THE_URL_YOU_COPIED
@@ -24,6 +24,29 @@ $ git remote -v
 9. Push the changes in your local repository to GitHub.
 `$ git push origin master`
 
+Check out a remote Git branch
+===== 
+
+
+```
+$ git fetch
+```
+
+The coomand below will fetch all the remote branches. 
+```
+$ git branch -v -a
+
+remotes/origin/test
+```
+
+Branches stating with remotes/* are branches on the server. 
+With the switch command below it is possible to checkout the romote branch
+
+```
+$ git switch test
+```
+
+In case of multiple remotes see article below https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch
 
 Overwrite local files and get everithing from server
 ==
