@@ -110,3 +110,16 @@ Pufhing the local work to the remote banch
 git commit -m "YOUR COMMENT"
 git push origin master
 ```
+
+
+Creates a conda env with all the base needed
+===== 
+```
+
+Pufhing the local work to the remote banch
+===== 
+```
+conda create --name YOUR_ENV_NAME python=3.11.3
+```
+
+
