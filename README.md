@@ -103,3 +103,10 @@ you now have a clean repo!
 Launch Jupyter Notebook from Windows command line
 ===== 
 ```python -m notebook```
+
+Pufhing the local work to the remote banch
+===== 
+```git add .
+git commit -m "YOUR COMMENT"
+git push origin master
+```
