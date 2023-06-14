@@ -100,3 +100,6 @@ git push origin master
 
 you now have a clean repo!
  
+Launch Jupyter Notebook from Windows command line
+===== 
+```python -m notebook```
