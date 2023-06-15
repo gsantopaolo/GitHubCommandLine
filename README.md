@@ -104,7 +104,7 @@ Launch Jupyter Notebook from Windows command line
 ===== 
 ```python -m notebook```
 
-Pufhing the local work to the remote banch
+Pushing the local work to the remote banch
 ===== 
 ```git add .
 git commit -m "YOUR COMMENT"
@@ -115,11 +115,18 @@ git push origin master
 Creates a conda env with all the base needed
 ===== 
 ```
-
-Pufhing the local work to the remote banch
-===== 
-```
 conda create --name YOUR_ENV_NAME python=3.11.3
 ```
 
+Update your local repo
+===== 
+```
+git fetch
+git merge origin/master
+```
+optianlly use 
+```
+git reset --hard
+```
+if you got an error and you want your local changes to be overwritten
 
