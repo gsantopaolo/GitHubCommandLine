@@ -130,3 +130,18 @@ git reset --hard
 ```
 if you got an error and you want your local changes to be overwritten
 
+Term Commands
+===== 
+
+
+```
+ls -lah
+```
+-l
+Long listing. Possibly the most used option for ls.
+-a
+	By default, ls does not list files whose name that start with a dot (such as for example .profile etc). This flag causes such files to be included.
+-h
+With -l or -s: prints sizes human readable (for example 1.89G or 815M, same idea as also tree -h).
+https://renenyffenegger.ch/notes/Linux/shell/commands/ls/
+
