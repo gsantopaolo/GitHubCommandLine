@@ -131,6 +131,11 @@ conda deactivate
 ```
 conda remove --name YOUR_ENV_NAME --all
 ```
+Clone a conda env 
+=====
+```
+conda create --name YOUR_NEW_ENV_NAME --clone YOUR_SOURCE_ENV_NAME
+```
 
 Update your local repo
 ===== 
