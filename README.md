@@ -137,6 +137,14 @@ Clone a conda env
 conda create --name YOUR_NEW_ENV_NAME --clone YOUR_SOURCE_ENV_NAME
 ```
 
+Rename a conda env 
+=====
+```
+conda rename -n YOUR_ACTUAL_ENV_NAME YOUR_NEW_ENV_NAME
+```
+
+
+
 Update your local repo
 ===== 
 ```
