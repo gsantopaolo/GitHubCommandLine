@@ -119,6 +119,19 @@ Creates a conda env with all the base needed
 conda create --name YOUR_ENV_NAME python=3.11.3
 ```
 
+
+Removes a conda env with all the base needed
+=====
+```
+conda env list
+```
+```
+conda deactivate
+```
+```
+conda remove --name YOUR_ENV_NAME --all
+```
+
 Update your local repo
 ===== 
 ```
