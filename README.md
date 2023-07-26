@@ -102,6 +102,12 @@ you now have a clean repo!
  
 Launch Jupyter Notebook from Windows command line
 ===== 
+Install Jupyter if you don't have it
+```
+pip install notebook
+```
+
+launch Jupyter
 ```
 python -m notebook
 ```
