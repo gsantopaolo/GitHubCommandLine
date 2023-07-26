@@ -102,7 +102,9 @@ you now have a clean repo!
  
 Launch Jupyter Notebook from Windows command line
 ===== 
-```python -m notebook```
+```
+python -m notebook
+```
 
 Pushing the local work to the remote banch
 ===== 
